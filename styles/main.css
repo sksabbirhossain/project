@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;600&family=Poppins:wght@400;600&display=swap");
+
+/* common css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main-btn {
+  padding: 5px 25px;
+  background: #396c03;
+  border-radius: 225px;
+  color: #ffffff;
+}
+.main-btn:hover {
+  border: 1px solid #396c03;
+}
+
+/* header  */
+.logo {
+  width: 141.6px;
+  height: 46.48px;
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #396c03;
+}
+.logo:hover {
+  color: #396c03;
+}
+
+/* hero section */
+.hero-section {
+  width: 100%;
+  height: 600px;
+  background: #6b914211;
+}
+.hero-text {
+  padding: 120px 0;
+}
+.hero-text h2 {
+  font-family: "Merienda";
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 700;
+  color: #396c03;
+}
+.hero-text .dot {
+  color: #ff8b00;
+}
+.hero-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  color: #676767;
+}
+.hero-input {
+  display: flex;
+  height: 38px;
+  align-items: center;
+  border: 1px solid #396c03;
+  border-radius: 225px;
+  z-index: 1;
+}
+.hero-input span {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+  background: #ff8b00;
+  border-radius: 50%;
+}
+.hero-input input,
+.hero-input input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.hero-img {
+  padding: 80px 0;
+  padding-left: 70px;
+}
+
+.main-img .main {
+  width: 450px;
+  height: 470px;
+  filter: drop-shadow(0px 12.2182px 27.0545px rgba(0, 0, 0, 0.15));
+  z-index: 1;
+}
+.img-2 {
+  width: 200px;
+  height: 200px;
+  top: -19px;
+  left: 280px;
+}
+.img-3 {
+  width: 120px;
+  height: 120px;
+  top: -24px;
+  right: 224px;
+}
+
+.img-4 {
+  background-image: url("../image/img4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 100px;
+  top: -265px;
+  left: 117px;
+  z-index: 2;
+}
+.img-4 p {
+  color: #ff8b00;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Poppins";
+  margin: 0;
+  padding-top: 30px;
+}
+.img-4 span {
+  font-family: "Poppins";
+  color: #838383;
+}
+
+/* last section */
+.last-text {
+  padding: 120px 0;
+}
+.last-text h2 {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+
+  color: #396c03;
+}
+.last-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #676767;
+}
+
+.last-img {
+  background-image: url("../image/group.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400px;
+ margin-top: 60px;
+}
